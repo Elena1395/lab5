@@ -7,7 +7,7 @@ namespace Лаб5
     /// Класс Administraror, хранит пользоветелей,
     /// может выводить информацию о доступных пользователю сервисах
     /// </summary>
-    class Administraror
+    class Administrator
     {
         List<User> users = new List<User>();
         public void AddUser(User user)

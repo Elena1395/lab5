@@ -14,7 +14,7 @@ namespace Лаб5
         /// </remarks>
         static void Main(string[] args)
         {
-            Administraror admin = new Administraror();
+            Administrator admin = new Administrator();
 
             string path = Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "input.txt");
             try
